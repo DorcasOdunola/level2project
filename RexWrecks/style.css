@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    height: 60px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav>img{
+    padding: 20px 5px 10px 30px;
+    
+}
+
+nav>h5{
+   line-height: 60px;
+   vertical-align: top;
+   font-size: 1.5em;
+   display: inline-block;
+   font-weight: 100;
+   color:rgb(90, 89, 89);
+}
+
+.learn{
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    /* background-color: rgb(216, 216, 216); */
+    
+}
+
+
+.learnImage{
+    width: 50%;
+
+}
+
+.learnImage>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.learnText{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 70px 50px 50px 130px;
+    line-height: 1.3;
+    vertical-align: bottom;
+}
+.learnText>h2{
+    font-size: 2.8em;
+    font-weight: 100;
+    color: rgb(54, 54, 54);
+}
+.learnText>p{
+    color: rgb(54, 54, 54);
+    line-height: 1.5;
+    vertical-align: middle;
+    font-size: 1.3em;
+}
+.aCourses{
+    background-color: #4c8bf5;
+    padding: 50px 100px 50px 100px;
+    box-sizing: border-box;
+}
+.aCourses>.flex1{
+    display: flex;
+}
+.aCourses>h3{
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.flex1>div{
+    width: 25%;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.flex1>div>img{
+    width: 50px;
+}
+.flex1>div>h4{
+    font-size: 1.4em;
+    line-height: 2;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    color: rgb(54, 54, 54);
+}
+.flex1>div>p{
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+    
+}
+.aCourses>.flex2{
+    display: flex;
+    width: 50%;
+}
+.flex2>div{
+    width: 50%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex2>div>img{
+    width: 50px;
+}
+.flex2>div>h4{
+    font-size: 1.4em;
+    line-height: 2;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    color: rgb(26, 25, 25);
+}
+.flex2>div>p{
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+    
+}
+.instructors{
+    margin: 50px 100px 50px 100px;
+}
+.instructors>h3{
+    font-size: 2em;
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.person{
+    display: flex;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 50px;
+}
+
+.person>div>h6{
+    font-size: 1.3em;
+    font-weight: 100;
+    padding: 20px;
+    color: rgb(26, 25, 25);
+}
+.person>div>p{
+    padding: 20px;
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+}
+.analyticsflex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.analyticsflex>div{
+    background-color: rgb(240, 240, 240);
+    margin: 10px;
+    width: 22%;
+    padding: 20px 30px 20px 30px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.analyticstext>h5{
+    font-size: 2em;
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.analyticstext>p{
+    padding: 20px;
+    padding-left: 0;
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+}
+.analyticsflex>div>img{
+    width: 50px;
+}
+.resources{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+.resources>h4{
+    font-size: 1.3em;
+    font-weight: 100;
+    padding: 20px;
+    color: rgb(65, 63, 63);
+}
+.flexresources{
+    display: flex;
+    justify-content: center;
+}
+.flexresources>div{
+    text-align: center;
+    margin: 30px;
+    /* width: 18; */
+}
+.flexresources>div>p{
+    padding: 20px;
+    padding-left: 0;
+    line-height: 1.5;                           
+}
+.footer{
+    float:right;
+    
+}
+.footer>ul>li>a{
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: bold;
+    /* padding: 20px; */
+    color: rgb(58, 58, 58);
+}
+.footer>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
