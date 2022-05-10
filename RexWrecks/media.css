@@ -1,0 +1,88 @@
+    *{
+        margin: 0;
+        padding: 0;}
+    
+    div.learnText{
+        padding: 10px;
+        overflow-x: scroll;
+        width: 100%;
+       
+    }
+    div.learnImage{
+       display: none;
+    }
+    
+    div.aCourses{
+        justify-content: center;
+        width: 100%;
+        
+    }
+    div.aCourses>div.flex1{
+        display: block;
+        /* padding: 10px; */
+        margin: 0;
+    }
+
+    div.aCourses>h3{
+        font-size: 1.5em;
+        color: rgba(255, 255, 255, 0.95);
+        font-weight: 100;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+    div.flex1>div{
+        width: 100%;
+    }
+
+    div.aCourses>.flex2{
+        display: block;
+        width: 100%;
+        
+        
+    }
+    div.flex2>div{
+        width: 100%;        
+    }
+
+    
+    .instructors{
+        margin: 50px 100px 50px 100px;
+    }
+    
+    .instructors>h3{
+        font-size: 2em;
+        color: rgb(54, 54, 54);
+        font-weight: 100;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+    div.person>div>img{
+        display: none;
+    }
+    
+   
+    div.analyticsflex{
+        display: block;
+        justify-content: center;
+        /* margin-bottom: 100px; */
+    }
+    
+    .resources{
+        margin: 0;
+        width: 100%;
+        background-color: rgb(240, 240, 240);
+    }
+    
+    div.flexresources{
+        display: block;
+        justify-content: center;
+    }
+    
+    
+    div.footer{
+        visibility: hidden;
+        
+    }
+    
+    
+
